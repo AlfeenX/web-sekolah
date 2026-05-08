@@ -27,11 +27,11 @@ Route::get('/ppdb', function () {
 
 // Admin akses
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('admin-pages.dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::get('/dashboard/posts', function () {
-    return view('dashboard.posts');
+    return view('admin-pages.posts');
 })->middleware(['auth', 'verified'])->name('dashboard.posts');
 
 Route::middleware('auth')->group(function () {
