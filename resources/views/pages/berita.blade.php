@@ -144,7 +144,7 @@
     <!-- PublicTopNav -->
     <header class="bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 sticky top-0 z-50">
         <div class="flex justify-between items-center h-16 w-full px-8 max-w-[1280px] mx-auto">
-            <div class="text-xl font-bold text-primary dark:text-white">SMK Negeri 1 Sukacita</div>
+            <div class="text-xl font-bold text-primary dark:text-white">SMK Cakrawala</div>
             <nav class="hidden md:flex items-center gap-8 font-public-sans text-sm font-medium tracking-tight">
                 <a class="text-slate-600 dark:text-slate-400 hover:text-primary hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors" href="#">Beranda</a>
                 <a class="text-primary dark:text-blue-300 border-b-2 border-primary font-bold pb-1" href="#">Berita</a>
@@ -161,7 +161,7 @@
         <!-- Hero / Headline Section -->
         <div class="mb-lg">
             <h1 class="font-h1 text-h1 text-primary mb-xs">Berita &amp; Pembaruan Sekolah</h1>
-            <p class="font-body-lg text-body-lg text-secondary max-w-2xl">Dapatkan informasi terbaru mengenai kegiatan di SMK Negeri 1 Sukacita, mulai dari pencapaian akademik hingga kemenangan olahraga.</p>
+            <p class="font-body-lg text-body-lg text-secondary max-w-2xl">Dapatkan informasi terbaru mengenai kegiatan di SMK Cakrawala, mulai dari pencapaian akademik hingga kemenangan olahraga.</p>
         </div>
         <!-- Search and Filter Bar -->
         <div class="bg-white border border-slate-200 p-md rounded-xl shadow-sm mb-lg flex flex-col md:flex-row gap-gutter items-center">
@@ -187,7 +187,7 @@
                 </div>
                 <div class="p-md">
                     <span class="font-caption text-caption text-secondary">24 Oktober 2024</span>
-                    <h2 class="font-h2 text-h2 text-primary mt-2 mb-4 group-hover:text-primary-container transition-colors">SMK Negeri 1 Sukacita Meraih Peringkat Teratas di Pameran Sains Regional</h2>
+                    <h2 class="font-h2 text-h2 text-primary mt-2 mb-4 group-hover:text-primary-container transition-colors">SMK Cakrawala Meraih Peringkat Teratas di Pameran Sains Regional</h2>
                     <p class="font-body-md text-body-md text-secondary mb-md">Siswa kami kembali menunjukkan bakat dan dedikasi yang luar biasa, dengan meraih juara pertama dalam tiga kategori utama di Expo Sains dan Teknik Tri-State.</p>
                     <a class="inline-flex items-center gap-2 font-label-sm text-label-sm text-primary font-bold hover:underline" href="#">
                         Baca Selengkapnya <span class="material-symbols-outlined text-sm">arrow_forward</span>
@@ -268,8 +268,8 @@
     <footer class="bg-slate-50 dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800">
         <div class="w-full py-12 px-8 flex flex-col md:flex-row justify-between items-center max-w-[1280px] mx-auto">
             <div class="mb-8 md:mb-0">
-                <div class="text-lg font-bold text-primary mb-2">SMK Negeri 1 Sukacita</div>
-                <p class="font-public-sans text-xs text-slate-500">© 2024 SMK Negeri 1 Sukacita. Hak cipta dilindungi undang-undang.</p>
+                <div class="text-lg font-bold text-primary mb-2">SMK Cakrawala</div>
+                <p class="font-public-sans text-xs text-slate-500">© 2024 SMK Cakrawala. Hak cipta dilindungi undang-undang.</p>
             </div>
             <nav class="flex flex-wrap justify-center gap-8">
                 <a class="font-public-sans text-xs text-slate-500 hover:text-primary underline decoration-primary/30" href="#">Kebijakan Privasi</a>

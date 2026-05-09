@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>@yield('title', 'Portal Admin SMK Negeri 1 Sukacita')</title>
+    <title>@yield('title', 'Portal Admin SMK Cakrawala')</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
@@ -103,13 +103,29 @@
     </style>
     @stack('styles')
 </head>
-<body class="font-body-md text-on-surface">
-    <x-admin.sidebar />
-    <main class="pl-64 min-h-screen">
-        <x-admin.header />
-        @yield('content')
-        <x-admin.footer />
-    </main>
+<body class="font-body-md text-on-surface bg-gradient-to-br from-slate-100 via-slate-50 to-white">
+    <div class="flex h-screen overflow-hidden gap-4 p-4">
+        <!-- Sidebar -->
+        <div class="flex-shrink-0 w-64">
+            <x-admin.sidebar />
+        </div>
+
+        <!-- Main Content Wrapper -->
+        <div class="flex-1 flex flex-col overflow-hidden rounded-[28px] bg-white shadow-lg border border-slate-200/50">
+            <!-- Top Header -->
+            <div class="flex-shrink-0 border-b border-slate-200/50">
+                <x-admin.header />
+            </div>
+
+            <!-- Content Area -->
+            <main class="flex-1 overflow-auto">
+                <div class="h-full">
+                    @yield('content')
+                </div>
+            </main>
+        </div>
+    </div>
+
     @vite('resources/js/app.js')
     @stack('scripts')
 </body>

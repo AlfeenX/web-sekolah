@@ -142,7 +142,7 @@
     <!-- PublicTopNav Component -->
     <nav class="bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 sticky top-0 z-50">
         <div class="flex justify-between items-center h-16 w-full px-8 max-w-[1280px] mx-auto">
-            <div class="text-xl font-bold text-blue-900 dark:text-white">SMK Negeri 1 Sukacita</div>
+            <div class="text-xl font-bold text-blue-900 dark:text-white">SMK Cakrawala</div>
             <div class="hidden md:flex items-center gap-8 font-public-sans text-sm font-medium tracking-tight">
                 <a class="text-slate-600 dark:text-slate-400 hover:text-blue-900 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors" href="#">Beranda</a>
                 <a class="text-slate-600 dark:text-slate-400 hover:text-blue-900 hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors" href="#">Berita</a>
@@ -183,7 +183,7 @@
                     </div>
                     <div class="p-md bg-white border border-outline-variant rounded-xl shadow-sm">
                         <h3 class="font-h3 text-h3 text-primary mb-3">Misi</h3>
-                        <p class="font-body-md text-body-md text-on-surface-variant">SMK Negeri 1 Sukacita memberdayakan siswa untuk mencapai potensi penuh mereka melalui kurikulum akademik yang ketat, kehidupan komunitas yang dinamis, serta komitmen terhadap layanan dan integritas.</p>
+                        <p class="font-body-md text-body-md text-on-surface-variant">SMK Cakrawala memberdayakan siswa untuk mencapai potensi penuh mereka melalui kurikulum akademik yang ketat, kehidupan komunitas yang dinamis, serta komitmen terhadap layanan dan integritas.</p>
                     </div>
                 </div>
             </div>
@@ -284,8 +284,8 @@
     <footer class="bg-slate-50 dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800">
         <div class="w-full py-12 px-8 flex flex-col md:flex-row justify-between items-center max-w-[1280px] mx-auto">
             <div class="flex flex-col items-center md:items-start mb-8 md:mb-0">
-                <div class="text-lg font-bold text-blue-900 mb-2">SMK Negeri 1 Sukacita</div>
-                <p class="font-public-sans text-xs text-slate-500">© 2024 SMK Negeri 1 Sukacita. Seluruh hak cipta dilindungi.</p>
+                <div class="text-lg font-bold text-blue-900 mb-2">SMK Cakrawala</div>
+                <p class="font-public-sans text-xs text-slate-500">© 2024 SMK Cakrawala. Seluruh hak cipta dilindungi.</p>
             </div>
             <div class="flex flex-wrap justify-center gap-8 font-public-sans text-xs text-slate-500">
                 <a class="text-slate-500 hover:text-blue-700 underline decoration-blue-900/30" href="#">Kebijakan Privasi</a>

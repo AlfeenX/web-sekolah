@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>SMK Negeri 1 Sukacita | Keunggulan dalam Pendidikan</title>
+    <title>SMK Cakrawala | Keunggulan dalam Pendidikan</title>
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&amp;display=swap"
         rel="stylesheet" />
     <link
@@ -35,7 +35,7 @@
     <!-- PublicTopNav Component -->
     <header class="bg-transparent text-white fixed inset-x-0 top-0 z-50 transition-all duration-300" id="navbar">
         <div class="flex justify-between items-center h-16 w-full px-8 max-w-[1280px] mx-auto">
-            <div class="text-xl font-bold">SMK Negeri 1 Sukacita</div>
+            <img src="{{asset('images/logo-wo-name.png')}}" alt="SMK Cakrawala Logo" class="h-10 w-auto">
             <nav class="hidden md:flex gap-8 items-center">
                 <a class="font-public-sans opacity-70 hover:opacity-100 transition-all"
                     href="{{ route('beranda') }}">Beranda</a>
@@ -69,7 +69,7 @@
                         class="inline-block py-1 px-3 bg-secondary-container text-on-secondary-container font-label-sm rounded-full mb-6 uppercase tracking-wider">Est.
                         1954</span>
                     <h1 class="font-h1 text-h1 mb-6 leading-tight">Tradisi. Inovasi. Ketegasan Akademik.</h1>
-                    <p class="font-body-lg text-body-lg mb-8 text-primary-fixed opacity-90">Di SMK Negeri 1 Sukacita,
+                    <p class="font-body-lg text-body-lg mb-8 text-primary-fixed opacity-90">Di SMK Cakrawala,
                         kami membina pemimpin masa depan melalui kurikulum yang menyeimbangkan kearifan klasik dengan
                         penyelidikan teknologi mutakhir.</p>
                     <div class="flex flex-wrap gap-4">
@@ -230,8 +230,8 @@
         <div
             class="w-full pt-12 pb-6 px-8 flex flex-col md:flex-row justify-between items-start max-w-[1280px] mx-auto gap-12">
             <div class="flex-1">
-                <div class="text-lg font-bold text-tertiary-fixed mb-4">SMK Negeri 1 Sukacita</div>
-                <p class="font-public-sans text-xs text-slate-500 mb-6">© 2024 SMK Negeri 1 Sukacita. Hak cipta
+                <div class="text-lg font-bold text-tertiary-fixed mb-4">SMK Cakrawala</div>
+                <p class="font-public-sans text-xs text-slate-500 mb-6">© 2024 SMK Cakrawala. Hak cipta
                     dilindungi undang-undang.</p>
                 <div class="flex gap-4">
                     <a class="w-8 h-8 rounded-full border border-slate-200 flex items-center justify-center text-slate-400 hover:text-primary transition-colors"
@@ -267,7 +267,7 @@
                     <div class="absolute inset-0 bg-slate-200 animate-pulse"></div>
                     <div class="relative z-10 text-center p-4">
                         <span class="material-symbols-outlined text-4xl text-slate-400 mb-2">map</span>
-                        <p class="text-caption text-slate-600">SMK Negeri 1 Sukacita<br />Jl. Pendidikan No. 123,
+                        <p class="text-caption text-slate-600">SMK Cakrawala<br />Jl. Pendidikan No. 123,
                             Sukacita</p>
                     </div>
                     <!-- Placeholder for actual Google Maps iframe -->

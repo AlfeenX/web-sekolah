@@ -29,11 +29,11 @@
                     <tr class="hover:bg-blue-900/5 transition-colors group">
                         <td class="px-6 py-4">
                             <span class="text-sm font-semibold text-primary block">{{ $post['title'] ?? 'Untitled' }}</span>
-                            <span class="text-caption text-secondary">{{ $post['published_at'] ?? 'Draft' }}</span>
+                            <span class="text-caption text-secondary">{{ $post['created_at'] ?? 'Draft' }}</span>
                         </td>
                         <td class="px-6 py-4 text-sm text-secondary">{{ $post['author'] ?? 'Unknown' }}</td>
                         <td class="px-6 py-4">
-                            <span class="px-2 py-1 bg-slate-100 text-slate-600 rounded text-[10px] font-bold uppercase">{{ $post['category'] ?? 'Uncategorized' }}</span>
+                            <span class="px-2 py-1 bg-slate-100 text-slate-600 rounded text-[10px] font-bold uppercase">{{ $post->category->name ?? 'Uncategorized' }}</span>
                         </td>
                         <td class="px-6 py-4">
                             <span class="flex items-center gap-2 text-{{ $post['status_color'] ?? 'emerald' }}-600 font-label-sm text-xs">
@@ -43,10 +43,10 @@
                         </td>
                         <td class="px-6 py-4 text-right">
                             <div class="flex justify-end gap-2">
-                                <a href="{{ $post['edit_url'] ?? '#' }}" class="p-2 text-slate-400 hover:text-blue-900 transition-colors">
+                                <a href="{{ route('dashboard.posts.edit', $post->id) }}" class="p-2 text-slate-400 hover:text-blue-900 transition-colors">
                                     <span class="material-symbols-outlined text-lg" data-icon="edit">edit</span>
                                 </a>
-                                <form method="POST" action="{{ $post['delete_url'] ?? '#' }}" class="inline">
+                                <form method="POST" action="{{ route('dashboard.posts.destroy', $post->id) }}" class="inline">
                                     @csrf
                                     @method('DELETE')
                                     <button type="submit" class="p-2 text-slate-400 hover:text-red-600 transition-colors" onclick="return confirm('Are you sure?')">
@@ -69,6 +69,6 @@
         </table>
     </div>
     <div class="p-4 bg-slate-50 border-t border-slate-100 flex justify-center">
-        <a href="{{ route('dashboard.posts') }}" class="text-primary font-label-sm text-xs hover:underline">Lihat Semua Postingan</a>
+        <a href="{{ url('/dashboard/posts') }}" class="text-primary font-label-sm text-xs hover:underline">Lihat Semua Postingan</a>
     </div>
 </div>
